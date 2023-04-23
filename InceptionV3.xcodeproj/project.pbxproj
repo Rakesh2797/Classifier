@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF9A984728D870E4008E67A2 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EF9A984628D870E4008E67A2 /* Inceptionv3.mlmodel */; };
+		EFDE2D9B28D86F1C003D4936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE2D9A28D86F1C003D4936 /* AppDelegate.swift */; };
+		EFDE2D9D28D86F1C003D4936 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE2D9C28D86F1C003D4936 /* SceneDelegate.swift */; };
+		EFDE2D9F28D86F1C003D4936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE2D9E28D86F1C003D4936 /* ViewController.swift */; };
+		EFDE2DA228D86F1C003D4936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDE2DA028D86F1C003D4936 /* Main.storyboard */; };
+		EFDE2DA428D86F1D003D4936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDE2DA328D86F1D003D4936 /* Assets.xcassets */; };
+		EFDE2DA728D86F1D003D4936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDE2DA528D86F1D003D4936 /* LaunchScreen.storyboard */; };
+		EFDE2DB228D86F1D003D4936 /* InceptionV3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE2DB128D86F1D003D4936 /* InceptionV3Tests.swift */; };
+		EFDE2DBC28D86F1D003D4936 /* InceptionV3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE2DBB28D86F1D003D4936 /* InceptionV3UITests.swift */; };
+		EFDE2DBE28D86F1D003D4936 /* InceptionV3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE2DBD28D86F1D003D4936 /* InceptionV3UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFDE2DAE28D86F1D003D4936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDE2D8F28D86F1C003D4936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDE2D9628D86F1C003D4936;
+			remoteInfo = InceptionV3;
+		};
+		EFDE2DB828D86F1D003D4936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDE2D8F28D86F1C003D4936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDE2D9628D86F1C003D4936;
+			remoteInfo = InceptionV3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF9A984628D870E4008E67A2 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		EFDE2D9728D86F1C003D4936 /* InceptionV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InceptionV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDE2D9A28D86F1C003D4936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFDE2D9C28D86F1C003D4936 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFDE2D9E28D86F1C003D4936 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFDE2DA128D86F1C003D4936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFDE2DA328D86F1D003D4936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFDE2DA628D86F1D003D4936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFDE2DA828D86F1D003D4936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDE2DAD28D86F1D003D4936 /* InceptionV3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InceptionV3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDE2DB128D86F1D003D4936 /* InceptionV3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InceptionV3Tests.swift; sourceTree = "<group>"; };
+		EFDE2DB728D86F1D003D4936 /* InceptionV3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InceptionV3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDE2DBB28D86F1D003D4936 /* InceptionV3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InceptionV3UITests.swift; sourceTree = "<group>"; };
+		EFDE2DBD28D86F1D003D4936 /* InceptionV3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InceptionV3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDE2D9428D86F1C003D4936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE2DAA28D86F1D003D4936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE2DB428D86F1D003D4936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFDE2D8E28D86F1C003D4936 = {
+			isa = PBXGroup;
+			children = (
+				EFDE2D9928D86F1C003D4936 /* InceptionV3 */,
+				EFDE2DB028D86F1D003D4936 /* InceptionV3Tests */,
+				EFDE2DBA28D86F1D003D4936 /* InceptionV3UITests */,
+				EFDE2D9828D86F1C003D4936 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDE2D9828D86F1C003D4936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDE2D9728D86F1C003D4936 /* InceptionV3.app */,
+				EFDE2DAD28D86F1D003D4936 /* InceptionV3Tests.xctest */,
+				EFDE2DB728D86F1D003D4936 /* InceptionV3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDE2D9928D86F1C003D4936 /* InceptionV3 */ = {
+			isa = PBXGroup;
+			children = (
+				EFDE2D9A28D86F1C003D4936 /* AppDelegate.swift */,
+				EFDE2D9C28D86F1C003D4936 /* SceneDelegate.swift */,
+				EFDE2D9E28D86F1C003D4936 /* ViewController.swift */,
+				EFDE2DA028D86F1C003D4936 /* Main.storyboard */,
+				EFDE2DA328D86F1D003D4936 /* Assets.xcassets */,
+				EFDE2DA528D86F1D003D4936 /* LaunchScreen.storyboard */,
+				EFDE2DA828D86F1D003D4936 /* Info.plist */,
+				EF9A984628D870E4008E67A2 /* Inceptionv3.mlmodel */,
+			);
+			path = InceptionV3;
+			sourceTree = "<group>";
+		};
+		EFDE2DB028D86F1D003D4936 /* InceptionV3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EFDE2DB128D86F1D003D4936 /* InceptionV3Tests.swift */,
+			);
+			path = InceptionV3Tests;
+			sourceTree = "<group>";
+		};
+		EFDE2DBA28D86F1D003D4936 /* InceptionV3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFDE2DBB28D86F1D003D4936 /* InceptionV3UITests.swift */,
+				EFDE2DBD28D86F1D003D4936 /* InceptionV3UITestsLaunchTests.swift */,
+			);
+			path = InceptionV3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDE2D9628D86F1C003D4936 /* InceptionV3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDE2DC128D86F1D003D4936 /* Build configuration list for PBXNativeTarget "InceptionV3" */;
+			buildPhases = (
+				EFDE2D9328D86F1C003D4936 /* Sources */,
+				EFDE2D9428D86F1C003D4936 /* Frameworks */,
+				EFDE2D9528D86F1C003D4936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InceptionV3;
+			productName = InceptionV3;
+			productReference = EFDE2D9728D86F1C003D4936 /* InceptionV3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFDE2DAC28D86F1D003D4936 /* InceptionV3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDE2DC428D86F1D003D4936 /* Build configuration list for PBXNativeTarget "InceptionV3Tests" */;
+			buildPhases = (
+				EFDE2DA928D86F1D003D4936 /* Sources */,
+				EFDE2DAA28D86F1D003D4936 /* Frameworks */,
+				EFDE2DAB28D86F1D003D4936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDE2DAF28D86F1D003D4936 /* PBXTargetDependency */,
+			);
+			name = InceptionV3Tests;
+			productName = InceptionV3Tests;
+			productReference = EFDE2DAD28D86F1D003D4936 /* InceptionV3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFDE2DB628D86F1D003D4936 /* InceptionV3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDE2DC728D86F1D003D4936 /* Build configuration list for PBXNativeTarget "InceptionV3UITests" */;
+			buildPhases = (
+				EFDE2DB328D86F1D003D4936 /* Sources */,
+				EFDE2DB428D86F1D003D4936 /* Frameworks */,
+				EFDE2DB528D86F1D003D4936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDE2DB928D86F1D003D4936 /* PBXTargetDependency */,
+			);
+			name = InceptionV3UITests;
+			productName = InceptionV3UITests;
+			productReference = EFDE2DB728D86F1D003D4936 /* InceptionV3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDE2D8F28D86F1C003D4936 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EFDE2D9628D86F1C003D4936 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EFDE2DAC28D86F1D003D4936 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EFDE2D9628D86F1C003D4936;
+					};
+					EFDE2DB628D86F1D003D4936 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EFDE2D9628D86F1C003D4936;
+					};
+				};
+			};
+			buildConfigurationList = EFDE2D9228D86F1C003D4936 /* Build configuration list for PBXProject "InceptionV3" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFDE2D8E28D86F1C003D4936;
+			productRefGroup = EFDE2D9828D86F1C003D4936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDE2D9628D86F1C003D4936 /* InceptionV3 */,
+				EFDE2DAC28D86F1D003D4936 /* InceptionV3Tests */,
+				EFDE2DB628D86F1D003D4936 /* InceptionV3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFDE2D9528D86F1C003D4936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDE2DA728D86F1D003D4936 /* LaunchScreen.storyboard in Resources */,
+				EFDE2DA428D86F1D003D4936 /* Assets.xcassets in Resources */,
+				EFDE2DA228D86F1C003D4936 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE2DAB28D86F1D003D4936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE2DB528D86F1D003D4936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDE2D9328D86F1C003D4936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9A984728D870E4008E67A2 /* Inceptionv3.mlmodel in Sources */,
+				EFDE2D9F28D86F1C003D4936 /* ViewController.swift in Sources */,
+				EFDE2D9B28D86F1C003D4936 /* AppDelegate.swift in Sources */,
+				EFDE2D9D28D86F1C003D4936 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE2DA928D86F1D003D4936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDE2DB228D86F1D003D4936 /* InceptionV3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE2DB328D86F1D003D4936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDE2DBC28D86F1D003D4936 /* InceptionV3UITests.swift in Sources */,
+				EFDE2DBE28D86F1D003D4936 /* InceptionV3UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFDE2DAF28D86F1D003D4936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDE2D9628D86F1C003D4936 /* InceptionV3 */;
+			targetProxy = EFDE2DAE28D86F1D003D4936 /* PBXContainerItemProxy */;
+		};
+		EFDE2DB928D86F1D003D4936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDE2D9628D86F1C003D4936 /* InceptionV3 */;
+			targetProxy = EFDE2DB828D86F1D003D4936 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFDE2DA028D86F1C003D4936 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDE2DA128D86F1C003D4936 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFDE2DA528D86F1D003D4936 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDE2DA628D86F1D003D4936 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFDE2DBF28D86F1D003D4936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFDE2DC028D86F1D003D4936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFDE2DC228D86F1D003D4936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D94LAFR9LD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InceptionV3/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Give Permission";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need it for Fun";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rakesh.InceptionV3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFDE2DC328D86F1D003D4936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D94LAFR9LD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InceptionV3/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Give Permission";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need it for Fun";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rakesh.InceptionV3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFDE2DC528D86F1D003D4936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rakesh.InceptionV3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InceptionV3.app/InceptionV3";
+			};
+			name = Debug;
+		};
+		EFDE2DC628D86F1D003D4936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rakesh.InceptionV3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InceptionV3.app/InceptionV3";
+			};
+			name = Release;
+		};
+		EFDE2DC828D86F1D003D4936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rakesh.InceptionV3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InceptionV3;
+			};
+			name = Debug;
+		};
+		EFDE2DC928D86F1D003D4936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rakesh.InceptionV3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InceptionV3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDE2D9228D86F1C003D4936 /* Build configuration list for PBXProject "InceptionV3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDE2DBF28D86F1D003D4936 /* Debug */,
+				EFDE2DC028D86F1D003D4936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDE2DC128D86F1D003D4936 /* Build configuration list for PBXNativeTarget "InceptionV3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDE2DC228D86F1D003D4936 /* Debug */,
+				EFDE2DC328D86F1D003D4936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDE2DC428D86F1D003D4936 /* Build configuration list for PBXNativeTarget "InceptionV3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDE2DC528D86F1D003D4936 /* Debug */,
+				EFDE2DC628D86F1D003D4936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDE2DC728D86F1D003D4936 /* Build configuration list for PBXNativeTarget "InceptionV3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDE2DC828D86F1D003D4936 /* Debug */,
+				EFDE2DC928D86F1D003D4936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFDE2D8F28D86F1C003D4936 /* Project object */;
+}
