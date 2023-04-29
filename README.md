@@ -3,9 +3,9 @@ This is an iOS app that uses CoreML and Vision Framework to classify images take
 
 ## Usage
 1. Launch the app on your device.
-2.Allow the app to access the camera when prompted.
-3.Aim the camera at an object and take a picture.
-4.The app will classify the object into various categories using the Inceptionv3 model.
+2. Allow the app to access the camera when prompted.
+3. Aim the camera at an object and take a picture.
+4. The app will classify the object into various categories using the Inceptionv3 model.
 
 ## Dependencies
 This app uses the following dependencies:
