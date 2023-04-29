@@ -12,3 +12,5 @@ This app uses the following dependencies:
 
 * CoreML
 * Vision
+
+![Classifier_GIF](https://user-images.githubusercontent.com/47936815/235314921-7b8467eb-b7ae-4783-8955-9350ee4e804b.gif)
