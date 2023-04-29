@@ -1,4 +1,4 @@
-### iOS Image Classification App using CoreML and Vision Framework
+## iOS Image Classification App using CoreML and Vision Framework
 This is an iOS app that uses CoreML and Vision Framework to classify images taken by the device's camera. The app uses the Inceptionv3 model to classify images into various categories.
 
 ## Usage
